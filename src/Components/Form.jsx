@@ -25,10 +25,12 @@ function Form() {
            errorcatch.password = "enter correct password "
         }
          seterror(errorcatch)
-        if (Object.key
-            
-        ) {
-            alert("Form submited")
+        if (Object.keys(errorcatch).length === 0  ) {
+            alert("Form submited");
+
+            setname("")
+            setemail("")
+            setpassword("")
         } 
     }
     return(

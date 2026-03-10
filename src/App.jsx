@@ -1,7 +1,9 @@
 import React from "react"
 import Intro from "./Components/Intro"
 import JSXML from "./Components/JSX";
-import Form from "./Components/form";
+import Form from "./Components/Form";
+import Form_task from "./Components/Form_task";
+import Components from "./Components/task_component/components";
 function App() {
 
   const employee = {
@@ -17,7 +19,9 @@ function App() {
     <>
     {/* <Intro/> */}
     {/* <JSXML/> */}
-    <Form/>
+    {/* <Form/> */}
+    {/* <Form_task/> */}
+    <Components/>
     </>
   )
 }
