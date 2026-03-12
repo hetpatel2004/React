@@ -3,13 +3,15 @@ import Header from './header'
 import Footer from './Footer'
 import Greeting from './Greeting'
 import Logo from './Logo'
+import Conditional from './Conditional'
 function Components() {
   return (
     <>
-    <Header/>
+    {/* <Header/>
     <Footer/>
     <Greeting/>
-    <Logo/>
+    <Logo/> */}
+    {/* <Conditional/> */}
     </>
   )
 }
